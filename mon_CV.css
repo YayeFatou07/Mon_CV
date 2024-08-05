@@ -12,42 +12,42 @@ body {
     background-color: #F2F2F2;
   
 }
-#expé{ /* bloc qui regroupe les elements de la partie experience*/
-    width: 40%; /*prendre une largeur de 40%*/
+#expé{ 
+    width: 40%; 
     padding-top: 900px;
 }
-.petit_titre{ /*titre h2*/
-    background-color: #FF9A00; /*img-fond */
-    text-align: right; /*centrer le texte à droite*/
-    padding-right: 50px; /*marge interieure droite*/
-    padding-top: 1px; /*marge interieure du haut*/
-    padding-bottom:1px ; /*marge interieure du bas */
-    margin-left: 0px; /*marge ixterieure gauche*/
-    font-family: 'Courier New', Courier, monospace; /*la police d'ecriture*/ 
-    font-size: 16px; /*la taille de l'ecriture*/
+.petit_titre{ 
+    background-color: #FF9A00; 
+    text-align: right; 
+    padding-right: 50px; 
+    padding-top: 1px; 
+    padding-bottom:1px ; 
+    margin-left: 0px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 16px; 
    
 }
 
-.class_liste{ /* bloc qui regroupe la partie liste et la partie paragraphes*/
-   display: flex; /*pour aligner la partie liste et les paragraphes sur la meme ligne*/
+.class_liste{ 
+   display: flex; 
 }
 
-.liste{  /* bloc qui regroupe la partie liste*/
-    flex: 1; /* pour que la liste prenne une partie de largeur */
-    list-style: none; /*pour enlever les puces (".") */  
-   font-size: 1.1em;/*taille de la liste*/
+.liste{  
+    flex: 1; 
+    list-style: none;   
+   font-size: 1.1em;
 }
 
-.liste li::before{  /*before pour generer de nouvelles puces et les personnaliser */
-    content: '\25A0'; /*puces carre plein*/
-    color: #FF9A00; /*couleur des puces*/
-    font-size: 2em; /*taille des puces*/
-   padding-right: 20px; /*marge interieure droite*/  
+.liste li::before{ 
+    content: '\25A0'; 
+    color: #FF9A00; 
+    font-size: 2em; 
+   padding-right: 20px;   
   
 }
 
-.paragraphe{  /* bloc qui regroupe la partie paragraphes*/
-    flex: 1; /*pour que les paragraphes prennent une partie de largeur */
+.paragraphe{ 
+    flex: 1;  
     padding-bottom: 50px;
     padding-top: 10px;
 }
