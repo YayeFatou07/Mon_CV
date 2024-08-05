@@ -137,7 +137,7 @@ body {
   bottom: 1px; /* Positionnement de 120 pixels vers le bas */
   width: 150px; /* Largeur de 13% du conteneur parent */
   border-top: 4px solid white; /* Bordure noire en haut de 4 pixels */
-  margin: 2px /* Marge en haut de 10 pixels et à gauche de 875 pixels */
+  margin: 2px /* Marge en haut de 10 pixels et à gauche de 875 pixels */}
 body {
     background-color: #ffdc98;
     margin: 30px;
