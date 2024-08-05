@@ -49,16 +49,15 @@ ul.li {
 }*/
 .petit_titre{
     background-color: orange;
-    padding-right:10%;
     width: 95px;
-    height:30px;
-    padding-left: 3%;
+    height:auto;
     text-align: center;
     padding: 0.4% 7% 1% 40%;
     font-size: 400%;
     font-family:'Courier New', Courier, monospace;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 7px;
+    font-size: 20px;
     
   }
     ul.list{
@@ -84,14 +83,12 @@ ul.li {
     }
     p.content{
         flex: 1;
-        padding-right: 40%;
+        padding-right: 50%;
         font-size: 130%;
     }
-    h2{
-        font-size: 20px;
-    }
+   
     #eduq{
-        padding-top: 150px;
+        padding-top: 250px;
     }
     
     
