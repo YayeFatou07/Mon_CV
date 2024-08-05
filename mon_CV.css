@@ -70,18 +70,20 @@ body {
     bottom: 70px; /* Positionnement 70 pixels vers le bas */
 }
 
-/*#lien img {
-    background-color: black;  Couleur de fond noire pour les images 
-    width: 50px;  Largeur de 50 pixels 
-    margin: 0 10px; Marge de 10 pixels à gauche et à droite 
-    cursor: pointer; Curseur en forme de pointeur (main) 
-}*/
-/*#pied {
-    display: flex;  Utilisation de Flexbox pour disposer les éléments 
-    justify-content: space-between;  Espacement égal entre les éléments 
-    align-items: center;  Alignement centré des éléments 
-    height: 40px;  Hauteur de 40 pixels 
-}*/
+#lien img {
+    background-color: black;  /*Couleur de fond noire pour les images */
+    width: 50px; /* Largeur de 50 pixels */
+    margin: 0 10px;/* Marge de 10 pixels à gauche et à droite */
+    cursor: pointer; /*Curseur en forme de pointeur (main) */
+
+}
+
+#pied {
+    display: flex;  /*Utilisation de Flexbox pour disposer les éléments */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Alignement centré des éléments */
+    height: 40px; /* Hauteur de 40 pixels */
+}
 
 #orange {
     width: 100%; /* Largeur de 100% du conteneur parent */
@@ -89,13 +91,13 @@ body {
     background-color: #FFA500; /* Couleur de fond orange */
     position: relative; /* Position relative pour un positionnement contrôlé */
     bottom: 100px;
-    bottom: -1300px; /* Positionnement de 20 pixels vers le bas */
+    bottom: -20px; /* Positionnement de 20 pixels vers le bas */
 }
 
-/*#trait {
-    position: relative;  Position relative pour un positionnement contrôlé 
-    bottom: 120px;  Positionnement de 120 pixels vers le bas 
-    width: 13%;  Largeur de 13% du conteneur parent 
-    border-top: 4px solid black;  Bordure noire en haut de 4 pixels 
-    margin: 10px 0 0 875px;  Marge en haut de 10 pixels et à gauche de 875 pixels 
-}*/
+#trait {
+    position: relative;  /*Position relative pour un positionnement contrôlé */
+    bottom: 120px; /* Positionnement de 120 pixels vers le bas */
+    width: 13%; /* Largeur de 13% du conteneur parent */
+    border-top: 4px solid black;  /*Bordure noire en haut de 4 pixels */
+    margin: 10px 0 0 875px; /* Marge en haut de 10 pixels et à gauche de 875 pixels */
+}
