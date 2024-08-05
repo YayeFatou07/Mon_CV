@@ -22,20 +22,12 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 10%
+   
    
 
 }
-/*.petit_titre{ 
-    background-color: #FF9A00; 
-    text-align: right; 
-    padding-right: 50px; 
-    padding-top: 1px; 
-    padding-bottom:1px ; 
-    margin-left: 0px; 
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 16px; 
-}*/
+
+
 .petit_titre{
     background-color: orange;
     width: 95px;
@@ -46,7 +38,7 @@ body {
     font-family:'Courier New', Courier, monospace;
     padding-top: 10px;
     padding-bottom: 7px;
-    font-size: 20px;
+    font-size: 13px;
   }
 
     ul.list{
@@ -68,7 +60,7 @@ body {
     }
     p.content{
         flex: 1;
-        padding-right: 50%;
+        padding-right: 20%;
         font-size: 130%;
     }
    
@@ -297,8 +289,8 @@ body {
   
 }
 #expé{ 
-    width: 40%; 
-    padding-top: 900px;
+    width: 98%; 
+    padding-top: 100px;
 }
 
 
