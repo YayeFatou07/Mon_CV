@@ -1,0 +1,53 @@
+body {
+    background-color: #ffdc98;
+    margin: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#CV {
+    width: 1100px;
+    height: 200vh ;
+    margin: 100px auto;
+    background-color: #F2F2F2;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+}
+#expé{ /* bloc qui regroupe les elements de la partie experience*/
+    width: 40%; /*prendre une largeur de 40%*/
+    padding-top: 900px;
+}
+.petit_titre{ /*titre h2*/
+    background-color: #FF9A00; /*img-fond */
+    text-align: right; /*centrer le texte à droite*/
+    padding-right: 50px; /*marge interieure droite*/
+    padding-top: 1px; /*marge interieure du haut*/
+    padding-bottom:1px ; /*marge interieure du bas */
+    margin-left: 0px; /*marge ixterieure gauche*/
+    font-family: 'Courier New', Courier, monospace; /*la police d'ecriture*/ 
+    font-size: 16px; /*la taille de l'ecriture*/
+   
+}
+
+.class_liste{ /* bloc qui regroupe la partie liste et la partie paragraphes*/
+   display: flex; /*pour aligner la partie liste et les paragraphes sur la meme ligne*/
+}
+
+.liste{  /* bloc qui regroupe la partie liste*/
+    flex: 1; /* pour que la liste prenne une partie de largeur */
+    list-style: none; /*pour enlever les puces (".") */  
+   font-size: 1.1em;/*taille de la liste*/
+}
+
+.liste li::before{  /*before pour generer de nouvelles puces et les personnaliser */
+    content: '\25A0'; /*puces carre plein*/
+    color: #FF9A00; /*couleur des puces*/
+    font-size: 2em; /*taille des puces*/
+   padding-right: 20px; /*marge interieure droite*/  
+  
+}
+
+.paragraphe{  /* bloc qui regroupe la partie paragraphes*/
+    flex: 1; /*pour que les paragraphes prennent une partie de largeur */
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
