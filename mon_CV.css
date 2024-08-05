@@ -1,3 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffdc98;
+    margin: 30px;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+#CV {
+    width: 1100px; /* Largeur de l'élément CV */
+    height: 110vh; /* Hauteur de 110% de la hauteur de la fenêtre */
+    margin: 100px auto; /* Marge de 100 pixels en haut et en bas, centrée horizontalement */
+    background-color: #F2F2F2; /* Couleur de fond gris clair */
+    /*box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1); /* Ombre légère autour de l'élément */
+}
+
+#section {
+    background-color: white;
+}
+.container {
+    padding: 0.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 10%
+   
+
+}
+/*.petit_titre{ 
+    background-color: #FF9A00; 
+    text-align: right; 
+    padding-right: 50px; 
+    padding-top: 1px; 
+    padding-bottom:1px ; 
+    margin-left: 0px; 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: 16px; 
+}*/
+.petit_titre{
+    background-color: orange;
+    width: 95px;
+    height:auto;
+    text-align: center;
+    padding: 0.4% 7% 1% 40%;
+    font-size: 400%;
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    font-size: 20px;
+  }
+
+    ul.list{
+        list-style-type: none;
+        font-size: 130%;
+        flex: 1;    
+    }
+    ul.content{
+        list-style: none;
+    }
+    span {
+        color: black;
+    }
+    .list li ::before{
+        content :'\25A0';
+        color : orange;
+        font-size: 2em;
+
+    }
+    p.content{
+        flex: 1;
+        padding-right: 50%;
+        font-size: 130%;
+    }
+   
+    #eduq{
+        padding-top: 250px;
+    }
+    
+
+
+#head {
+    display: flex; /* Utilisation de Flexbox pour disposer les éléments */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    align-items: center; /* Alignement centré des éléments */
+    padding-bottom: 35px; /* Padding en bas de 35 pixels */
+    padding: 50px 0 30px 0; /* Padding en haut de 50 pixels et en bas de 30 pixels */
+}
+
+#la_photo {
+    width: 150px; /* Largeur de la photo */
+    height: 150px; /* Hauteur de la photo */
+    border-radius: 50%; /* Bordure arrondie pour rendre la photo circulaire */
+    overflow: hidden; /* Cache le contenu qui dépasse les bords */
+    border: 10px solid black; /* Bordure noire de 10 pixels */
+    position: relative; /* Position relative pour un positionnement contrôlé */
+    top: 0px;   
+    left: 90px;
+}
+
+#la_photo img {
+    width: 100%; /* La photo prend toute la largeur du conteneur */
+    height: 100%; /* La photo prend toute la hauteur du conteneur */
+    object-fit: cover; /* La photo couvre entièrement le conteneur, coupant les bords si nécessaire */
+}
+
+#nom {
+    color: white; /* Couleur du texte blanche */
+    font-size: xx-large; /* Taille de la police très grande */
+    padding-left: 110px; /* Padding à gauche de 110 pixels */
+    padding-bottom: 0;
+    margin: 5px 0 0 30px; /* Marge en haut de 5 pixels, en bas et à gauche de 30 pixels */
+}
+
+#profil_title {
+    color: white; /* Couleur du texte blanche */
+    font-size: x-large; /* Taille de la police grande */
+    font-weight: 100; /* Police très fine */
+    padding-left: 110px; /* Padding à gauche de 110 pixels */
+    margin: 0 0 5px 30px; /* Marge en bas de 5 pixels, en bas et à gauche de 30 pixels */
+}
+
+#name {
+    background-color: #fe9b00; /* Couleur de fond orange vif */
+    width: 90%; /* Largeur de 90% du conteneur parent */
+    height: 100%; /* Hauteur de 100% du conteneur parent */
+    padding: 20px 0; /* Padding en haut et en bas de 20 pixels */
+}
+
+#lien {
+    display: flex; /* Utilisation de Flexbox pour disposer les éléments */
+    justify-content: center; /* Centrage des éléments */
+    padding: 50px; /* Padding de 50 pixels autour des éléments */
+    /* background-color: blanchedalmond; */ /* Commenté, n'affecte pas le style */
+    position: relative;
+    bottom: 70px; /* Positionnement 70 pixels vers le bas */
+}
+
+#lien img {
+    background-color: black;  /*Couleur de fond noire pour les images */
+    width: 50px; /* Largeur de 50 pixels */
+    margin: 0 10px;/* Marge de 10 pixels à gauche et à droite */
+    cursor: pointer; /*Curseur en forme de pointeur (main) */
+
+}
 
 *{
   list-style: none;
@@ -156,17 +300,7 @@ body {
     width: 40%; 
     padding-top: 900px;
 }
-.petit_titre{ 
-    background-color: #FF9A00; 
-    text-align: right; 
-    padding-right: 50px; 
-    padding-top: 1px; 
-    padding-bottom:1px ; 
-    margin-left: 0px; 
-    font-family: 'Courier New', Courier, monospace; 
-    font-size: 16px; 
-   
-}
+
 
 .class_liste{ 
    display: flex; 
@@ -190,4 +324,27 @@ body {
     flex: 1;  
     padding-bottom: 50px;
     padding-top: 10px;
+}
+#pied {
+    display: flex;  /*Utilisation de Flexbox pour disposer les éléments */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Alignement centré des éléments */
+    height: 40px; /* Hauteur de 40 pixels */
+}
+
+#orange {
+    width: 100%; /* Largeur de 100% du conteneur parent */
+    height: 40px; /* Hauteur de 40 pixels */
+    background-color: #FFA500; /* Couleur de fond orange */
+    position: relative; /* Position relative pour un positionnement contrôlé */
+    bottom: 100px;
+    bottom: -20px; /* Positionnement de 20 pixels vers le bas */
+}
+
+#trait {
+    position: relative;  /*Position relative pour un positionnement contrôlé */
+    bottom: 120px; /* Positionnement de 120 pixels vers le bas */
+    width: 13%; /* Largeur de 13% du conteneur parent */
+    border-top: 4px solid black;  /*Bordure noire en haut de 4 pixels */
+    margin: 10px 0 0 875px; /* Marge en haut de 10 pixels et à gauche de 875 pixels */
 }
