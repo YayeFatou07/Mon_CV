@@ -30,7 +30,7 @@ body {
 
 .petit_titre{
     background-color: orange;
-    width: 95px;
+    width: 50%;
     height:auto;
     text-align: center;
     padding: 0.4% 7% 1% 40%;
@@ -61,11 +61,11 @@ body {
     p.content{
         flex: 1;
         padding-right: 20%;
-        font-size: 130%;
+        font-size: 23px;
     }
    
     #eduq{
-        padding-top: 250px;
+        padding-top: 100px;
     }
     
 
@@ -111,12 +111,6 @@ body {
     margin: 0 0 5px 30px; /* Marge en bas de 5 pixels, en bas et à gauche de 30 pixels */
 }
 
-#name {
-    background-color: #fe9b00; /* Couleur de fond orange vif */
-    width: 90%; /* Largeur de 90% du conteneur parent */
-    height: 100%; /* Hauteur de 100% du conteneur parent */
-    padding: 20px 0; /* Padding en haut et en bas de 20 pixels */
-}
 
 #lien {
     display: flex; /* Utilisation de Flexbox pour disposer les éléments */
@@ -325,12 +319,12 @@ body {
 }
 
 #orange {
-    width: 100%; /* Largeur de 100% du conteneur parent */
-    height: 40px; /* Hauteur de 40 pixels */
-    background-color: #FFA500; /* Couleur de fond orange */
-    position: relative; /* Position relative pour un positionnement contrôlé */
-    bottom: 100px;
-    bottom: -20px; /* Positionnement de 20 pixels vers le bas */
+  width: 152%;
+  height: 30px;
+  background-color: #FFA500;
+  position: relative;
+  bottom: 70px;
+  top: 265px;
 }
 
 #trait {
@@ -339,4 +333,30 @@ body {
     width: 13%; /* Largeur de 13% du conteneur parent */
     border-top: 4px solid black;  /*Bordure noire en haut de 4 pixels */
     margin: 10px 0 0 875px; /* Marge en haut de 10 pixels et à gauche de 875 pixels */
+}
+#droit{
+  display: flex;
+  width: 156%;
+}
+#name{
+  background-color: #fe9b00; /* Couleur de fond orange vif */
+  width: 90%; /* Largeur de 90% du conteneur parent */
+  height: 100px;
+  position: relative;
+  top: 100px;
+  right: 50px;
+  z-index: 0;
+}
+#tof{
+  height: 30vh;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+hr{
+  width: 100%;
+  height: 10px;
+  position: relative;
+  top: 500px;
+  background-color: white;
 }
